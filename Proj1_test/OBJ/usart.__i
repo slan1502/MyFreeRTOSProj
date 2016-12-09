@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\CMSIS -I.\FreeRTOS\include -I.\LIB\inc -I.\USER -I.\FreeRTOS\protable 
+-I C:\installed\KeilMDK\ARM\RV31\INC 
+-I C:\installed\KeilMDK\ARM\CMSIS\Include 
+-I C:\installed\KeilMDK\ARM\Inc\ST\STM32F10x 
+-o ".\OBJ\usart.o" --omf_browse ".\OBJ\usart.crf" --depend ".\OBJ\usart.d" "USER\usart.c"

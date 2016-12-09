@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\CMSIS -I.\FreeRTOS\include -I.\LIB\inc -I.\USER -I.\FreeRTOS\protable 
+-I C:\InstalledTools\KeilMDK\ARM\RV31\INC 
+-I C:\InstalledTools\KeilMDK\ARM\CMSIS\Include 
+-I C:\InstalledTools\KeilMDK\ARM\Inc\ST\STM32F10x 
+-o ".\OBJ\event_groups.o" --omf_browse ".\OBJ\event_groups.crf" --depend ".\OBJ\event_groups.d" "FreeRTOS\Source\event_groups.c"
