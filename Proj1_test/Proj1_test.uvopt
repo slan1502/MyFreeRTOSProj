@@ -157,7 +157,7 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>73</LineNumber>
+          <LineNumber>156</LineNumber>
           <EnabledFlag>1</EnabledFlag>
           <Address>0</Address>
           <ByteObject>0</ByteObject>
@@ -166,7 +166,7 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>F:\temp\FreeRTOS\my_project\Proj1_test\USER\main.c</Filename>
+          <Filename>C:\MyFiles\MyFreeRTOSProj\Proj1_test\USER\main.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
@@ -175,19 +175,16 @@
         <Ww>
           <count>0</count>
           <WinNumber>1</WinNumber>
-          <ItemText>pvParameters</ItemText>
-        </Ww>
-        <Ww>
-          <count>1</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>taskHandleSave</ItemText>
-        </Ww>
-        <Ww>
-          <count>2</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>temp</ItemText>
+          <ItemText>getMsg</ItemText>
         </Ww>
       </WatchWindow1>
+      <MemoryWindow1>
+        <Mm>
+          <WinNumber>1</WinNumber>
+          <SubType>0</SubType>
+          <ItemText>0x20000A40</ItemText>
+        </Mm>
+      </MemoryWindow1>
       <DebugFlag>
         <trace>0</trace>
         <periodic>1</periodic>
@@ -268,7 +265,7 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>147</TopLine>
+      <TopLine>144</TopLine>
       <CurrentLine>154</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\CMSIS\startup\arm\startup_stm32f10x_hd.s</PathWithFileName>
@@ -280,7 +277,7 @@
 
   <Group>
     <GroupName>LIB</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -696,7 +693,7 @@
       <GroupNumber>3</GroupNumber>
       <FileNumber>29</FileNumber>
       <FileType>1</FileType>
-      <tvExp>0</tvExp>
+      <tvExp>1</tvExp>
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -712,12 +709,12 @@
       <GroupNumber>3</GroupNumber>
       <FileNumber>30</FileNumber>
       <FileType>1</FileType>
-      <tvExp>0</tvExp>
+      <tvExp>1</tvExp>
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>723</TopLine>
+      <CurrentLine>727</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\FreeRTOS\Source\queue.c</PathWithFileName>
       <FilenameWithoutPath>queue.c</FilenameWithoutPath>
@@ -732,7 +729,7 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1852</TopLine>
+      <TopLine>1853</TopLine>
       <CurrentLine>1860</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\FreeRTOS\Source\tasks.c</PathWithFileName>
@@ -764,7 +761,7 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>225</TopLine>
+      <TopLine>227</TopLine>
       <CurrentLine>249</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\FreeRTOS\protable\heap_2.c</PathWithFileName>
@@ -780,7 +777,7 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>241</TopLine>
+      <TopLine>262</TopLine>
       <CurrentLine>284</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\FreeRTOS\protable\port.c</PathWithFileName>
@@ -850,10 +847,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>3</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>69</TopLine>
-      <CurrentLine>73</CurrentLine>
+      <TopLine>150</TopLine>
+      <CurrentLine>169</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\USER\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>

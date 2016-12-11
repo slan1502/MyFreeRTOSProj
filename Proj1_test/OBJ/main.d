@@ -44,3 +44,5 @@
 .\OBJ\main.o: .\FreeRTOS\include\mpu_wrappers.h
 .\OBJ\main.o: .\FreeRTOS\include\task.h
 .\OBJ\main.o: .\FreeRTOS\include\list.h
+.\OBJ\main.o: .\FreeRTOS\include\queue.h
+.\OBJ\main.o: .\FreeRTOS\include\semphr.h
